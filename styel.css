@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+padding: ;
+margin: ;
+background-color:#F6F0F2;
+
+}
+
+:root{
+  --primary_color: #FF5588;
+
+}
+.logos{
+align-items: center;
+
+
+}
+.container{
+padding: 20px 80px;
+display: flex;
+
+}
+.profile-data{
+width: 20%;
+padding-top: 100px;
+
+}
+.profile-data img:hover{ 
+    transform: scale(01.05);
+   cursor: pointer;
+    
+
+}
+.apps:hover{ 
+  transform: scale(01.5);
+  
+ }
+
+
+.icons{
+display: flex;
+justify-content: space-between;
+margin: 0px 30px ;
+padding: 30px !important;
+cursor: pointer;
+
+}
+
+
+.icons1:hover{
+transform: scale(1.1);
+box-shadow: 3px 0px 9px 3px var(--primary_color);
+
+
+}
+.profile-data button{
+width: 275px;
+margin: 20px 30px ;
+padding:10px 20px  ;
+border: 1px solid 
+#333333;
+border-radius: 10px;
+}
+
+.hire-me-btn:hover{
+  box-shadow: 2px 1px 8px 2px var(--primary_color);
+transform: scale(01.1);
+
+}
+
+/* section 2 */
+
+.profile-details{
+margin-left: 50px;
+
+}
+.intro h2{
+color: var(--primary_color);
+
+
+}
+.intro h1{
+font-weight: 400;
+font-size: 64px;
+
+}
+.work-done{
+display: flex;
+justify-content: space-between;
+margin-top: 120px;
+
+
+}
+.Experience h1 {
+color: var(--primary_color);
+margin-left:20px ;
+padding-top:10px;
+
+
+
+}
+
+.Experience h1:hover{
+  cursor: pointer;
+  box-shadow: 3px 0px 9px 3px rgba(#3c3a3b);
+transform: scale(01.1);
+
+
+
+}
+
+.Experience span{
+  padding-top:10px;
+
+}
+
+
+.intro2 h2{
+color: var(--primary_color);
+margin-top: 180px;
+}
+
+
+
+.Career-Education{
+margin-top: 180px;
+
+
+
+}
+
+.Education h2{
+color: var(--primary_color);
+
+
+
+}
+
+
+.degrees{
+  margin: 40px 0px;
+
+
+
+}
+
+.degrees p{
+font-weight: 400;
+font-size: 24px;
+color:#101010
+
+}
+
+.services p{
+color: var(--primary_color);
+font-weight: 400;
+font-size: 24px;
+
+}
+
+
+.services-box{
+margin-top: 60px ;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+.services h1{
+color:#181818;
+
+}
+
+.Projects:hover{
+  cursor: pointer;
+  box-shadow: 3px 0px 9px 3px rgba(#3c3a3b);
+transform: scale(01.1);
+
+
+}
+
+
+.Projects1{
+
+  
+}
+
+
+.Projects{
+
+border: 1px solid black;
+width: fit-content;
+border-radius: 20px ;
+padding: 10px;
+}
+
+.Projects h1{
+margin-left: 40px;
+font-weight: 400;
+font-size: 14px;
+width: 150px;
+
+
+}
+
+.Projects span{
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 40px;
+
+  }
+
+  .Skills p{
+    color: var(--primary_color);
+    font-weight: 400;
+    font-size: 24px;
+    padding-top:90px;
+   }  
+
+
+  .logos{
+  display: flex;
+justify-content: space-between;
+
+  }
+
+  .logos img:hover{
+    cursor: pointer;
+    box-shadow: 3px 0px 9px 3px rgba(#3c3a3b);
+  transform: scale(1.1);
+  
+
+  }
+   
+
+
+  .Portfolio p{
+    color: var(--primary_color);
+    font-weight: 400;
+    font-size: 24px;
+    
+   }  
+
+
+.img1:hover{
+    cursor: pointer;
+  transform: scale(01.05);
+}
+
+
+   .Testimonial p{
+    color: var(--primary_color);
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 60px;
+   } 
+   .cart{
+border: 1px solid  #333333;
+border-radius: 40px ;
+padding: 40px ;
+width: 70%;
+   } 
+
+ .pera{
+display: flex;
+
+ }
+
+
+ .pera img{
+margin-right: 20px ;
+
+ }
+ .Brands{
+margin-top: 150px ;
+
+
+ }
+ .Brands p{
+color: var(--primary_color);
+font-weight: 400;
+    font-size: 24px;
+
+ }
+ .logos-Brands img{  
+cursor: pointer;
+margin-top: 30px ;
+margin-right: 100px ;
+ }
+ .logos-Brands1:hover{
+  cursor: pointer;
+  box-shadow: 3px 0px 9px 3px rgba(#080708);
+transform: scale(01.10);
+}
+
+ 
+
+/* content */
+ .content{
+  margin: 30px 0px ;
+  font-weight: 400;
+font-size: 24px;
+color: var(--primary_color);
+
+ }
+
+
+.form-input{
+margin: 20px 0px ;
+
+ }
+
+.form-input input{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom:2px solid #999999 ;
+width: 600px ;
+padding:10px ;
+ }
+
+ .form-input input:focus{
+  outline: none;
+}
+
+
+.form-input textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid #999999 ;
+ 
+}
+
+.form-input textarea:focus{
+  outline: none;
+}
+
+.Hire-btn{
+padding: 15px  55px ;
+border-radius: 15px ;
+border: 1px solid  #999999  ;
+margin: 20px 0px ;
+
+   }
+
+   .label-name{
+font-size:16px ;
+font-weight:400px;
+
+   }
+   .Hire-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 0px 12px 5px rgba(rgb(79, 71, 71), rgb(43, 47, 43), rgb(53, 53, 61));
+  transform: scale(01.1);
+  
+  
+  }
+
+
+
